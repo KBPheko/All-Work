@@ -1,0 +1,23 @@
+const convertPoundToKg = (pound) => {
+    return pound * 0.453592;
+}
+
+console.log(`1 pound = ${convertPoundToKg(1)} KG`);
+
+const convertInchesToCM = (inch) => {
+    return inch * 2.54;
+}
+
+console.log(convertInchesToCM(2));
+
+const convertFahrenheitToCelsius = (fahrenheit) => {
+    return (fahrenheit - 32) * 5/9;
+}
+
+console.log(convertFahrenheitToCelsius(1));
+
+const convertFeetToMetres = (feet) => {
+    return feet * 0,3048;
+}
+
+console.log(convertFeetToMetres(1));

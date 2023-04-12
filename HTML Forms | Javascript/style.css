@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(183, 163, 184);
+    color: #fff;
+    align-items: center;
+}
+
+.register-form{
+    margin: auto;
+    border-radius: 0.7pc;
+    box-shadow: 1px 1px 1px 1px rgb(78, 75, 75);
+    border: 2px solid aliceblue;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(216, 70, 232);
+    align-items: center;
+}
+
+.header{ 
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
