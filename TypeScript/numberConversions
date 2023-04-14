@@ -1,7 +1,7 @@
 /** Number conversions */
 
 // returns pounds in KG
-function poundToKg (pound : any) : any {
+function poundToKg (pound : number) : number {
     return pound / 2.205;
 }
 
@@ -9,14 +9,14 @@ console.log(poundToKg(10)); //returns 25.4 KG
 
 //returns inches in centimeters
 
-function inchesToCM (inch : any) : any {
+function inchesToCM (inch : number) : number {
     return inch * 2.54;
 }
 console.log(inchesToCM(2)); //returns 5.08 Cm
 
 // returns Fahrenheit in Celsius
 
-function fahrenheitToCel ( fahrenheit : any ) : any {
+function fahrenheitToCel ( fahrenheit : number ) : number {
     return (fahrenheit - 32) * 5/9; 
 }
 
@@ -24,7 +24,7 @@ console.log(fahrenheitToCel(32)); //returns 0 celsius
 
 // returns feet in meters 
 
-function feetToMeters( feet : any ) : any{
+function feetToMeters( feet : number ) : number{
     return feet / 3.281;
 }
 
