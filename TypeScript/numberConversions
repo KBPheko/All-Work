@@ -1,0 +1,31 @@
+/** Number conversions */
+
+// returns pounds in KG
+function poundToKg (pound : any) : any {
+    return pound / 2.205;
+}
+
+console.log(poundToKg(10));
+
+//returns inches in centimeters
+
+function inchesToCM (inch : any) : any {
+    return inch * 2.54;
+}
+console.log(inchesToCM(2));
+
+// returns Fahrenheit in Celsius
+
+function fahrenheitToCel ( fahrenheit : any ) : any {
+    return (fahrenheit - 32) * 5/9; 
+}
+
+console.log(fahrenheitToCel(32));
+
+// returns feet in meters 
+
+function feetToMeters( feet : any ) : any{
+    return feet / 3.281;
+}
+
+console.log(feetToMeters(1))

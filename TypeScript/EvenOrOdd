@@ -1,0 +1,13 @@
+// #1 Odd or Even Number
+
+function oddEvenNumber (val: number) : string {
+    
+    if ((val% 2) === 0){
+        return "Even";
+    } 
+    else {
+        return "Odd";
+    }
+}
+
+console.log(oddEvenNumber(13));
