@@ -1,0 +1,14 @@
+.row{
+    margin: 30px;
+}
+
+.row{
+    margin-top: 30px;
+}
+
+.card-description{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
