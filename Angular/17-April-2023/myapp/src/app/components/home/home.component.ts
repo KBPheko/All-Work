@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.fakeStoreService.getProducts().subscribe((data:any) => {
       console.table(data)
-      this.products = data
+      this.products = data;
     }
     );
   }
