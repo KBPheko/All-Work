@@ -67,7 +67,7 @@
 
 .my-account-content a {
     float: none;
-    color: black;
+    color: var(--gray100);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
