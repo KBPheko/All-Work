@@ -9,6 +9,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { ProductCartComponent } from './components/product-cart/product-cart.component';
 import { HeaderComponent } from './components/header/header.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
